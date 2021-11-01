@@ -20,3 +20,16 @@ To list information about trail
 To get the trail name
 Assignment25-CloudTrail
 To get a status of a trail
+{
+    "IsLogging": true,
+    "LatestDeliveryTime": "2021-11-01T21:40:34.240000+01:00",
+    "StartLoggingTime": "2021-11-01T18:51:59.376000+01:00",
+    "LatestCloudWatchLogsDeliveryTime": "2021-11-01T21:39:54.374000+01:00",
+    "LatestDigestDeliveryTime": "2021-11-01T21:39:29.365000+01:00",
+    "LatestDeliveryAttemptTime": "2021-11-01T20:40:34Z",
+    "LatestNotificationAttemptTime": "",
+    "LatestNotificationAttemptSucceeded": "",
+    "LatestDeliveryAttemptSucceeded": "2021-11-01T20:40:34Z",
+    "TimeLoggingStarted": "2021-11-01T17:51:59Z",
+    "TimeLoggingStopped": ""
+}
