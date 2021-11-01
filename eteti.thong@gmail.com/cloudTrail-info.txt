@@ -1,0 +1,22 @@
+To list information about trail
+{
+    "trailList": [
+        {
+            "Name": "Assignment25-CloudTrail",
+            "S3BucketName": "aws-cloudtrail-logs-349613135469-69cd65b1",
+            "IncludeGlobalServiceEvents": true,
+            "IsMultiRegionTrail": true,
+            "HomeRegion": "us-east-1",
+            "TrailARN": "arn:aws:cloudtrail:us-east-1:349613135469:trail/Assignment25-CloudTrail",
+            "LogFileValidationEnabled": true,
+            "CloudWatchLogsLogGroupArn": "arn:aws:logs:us-east-1:349613135469:log-group:Assignment25-LogGroup:*",
+            "CloudWatchLogsRoleArn": "arn:aws:iam::349613135469:role/service-role/Assignment25CloudTrailRole",
+            "HasCustomEventSelectors": false,
+            "HasInsightSelectors": false,
+            "IsOrganizationTrail": false
+        }
+    ]
+}
+To get the trail name
+Assignment25-CloudTrail
+To get a status of a trail

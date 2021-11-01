@@ -1,0 +1,48 @@
+To list information about alarm
+{
+    "MetricAlarms": [
+        {
+            "AlarmName": "myAssignment25CPUAlarm",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:349613135469:alarm:myAssignment25CPUAlarm",
+            "AlarmDescription": "when the instance CPU Utilization reaches 1 percent",
+            "AlarmConfigurationUpdatedTimestamp": "2021-11-01T17:35:58.403000+00:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:349613135469:myCPUUsageAssignment25"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "INSUFFICIENT_DATA",
+            "StateReason": "Insufficient Data: 1 datapoint was unknown.",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2021-11-01T18:45:28.174+0000\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2021-11-01T18:45:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2021-11-01T18:45:28.177000+00:00",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-08fd2a258680f4c84"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing"
+        }
+    ],
+    "CompositeAlarms": []
+}
+To list information about dashboard
+{
+    "DashboardEntries": [
+        {
+            "DashboardName": "myEC2Assignment25Dashboard",
+            "DashboardArn": "arn:aws:cloudwatch::349613135469:dashboard/myEC2Assignment25Dashboard",
+            "LastModified": "2021-11-01T17:00:15+00:00",
+            "Size": 14
+        }
+    ]
+}
