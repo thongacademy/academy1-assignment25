@@ -1,0 +1,37 @@
+***To list information about trail***
+{
+    "trailList": [
+        {
+            "Name": "Assignment25-CloudTrail",
+            "S3BucketName": "aws-cloudtrail-logs-192775202819-ad49d69a",
+            "IncludeGlobalServiceEvents": true,
+            "IsMultiRegionTrail": true,
+            "HomeRegion": "us-east-1",
+            "TrailARN": "arn:aws:cloudtrail:us-east-1:192775202819:trail/Assignment25-CloudTrail",
+            "LogFileValidationEnabled": true,
+            "CloudWatchLogsLogGroupArn": "arn:aws:logs:us-east-1:192775202819:log-group:Assignment25-LogGroup:*",
+            "CloudWatchLogsRoleArn": "arn:aws:iam::192775202819:role/service-role/Assignment25CloudTrailRole",
+            "HasCustomEventSelectors": false,
+            "HasInsightSelectors": false,
+            "IsOrganizationTrail": false
+        }
+    ]
+}
+***To get the trail name***
+
+Assignment25-CloudTrail
+
+***To get a status of a trail***
+{
+    "IsLogging": true,
+    "LatestDeliveryTime": "2021-11-02T11:36:59.059000+01:00",
+    "StartLoggingTime": "2021-11-02T10:54:35.861000+01:00",
+    "LatestCloudWatchLogsDeliveryTime": "2021-11-02T11:38:49.160000+01:00",
+    "LatestDigestDeliveryTime": "2021-11-02T11:24:21.457000+01:00",
+    "LatestDeliveryAttemptTime": "2021-11-02T10:36:59Z",
+    "LatestNotificationAttemptTime": "",
+    "LatestNotificationAttemptSucceeded": "",
+    "LatestDeliveryAttemptSucceeded": "2021-11-02T10:36:59Z",
+    "TimeLoggingStarted": "2021-11-02T09:54:35Z",
+    "TimeLoggingStopped": ""
+}
