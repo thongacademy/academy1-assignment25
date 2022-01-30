@@ -1,0 +1,73 @@
+{
+    "MetricAlarms": [
+        {
+            "AlarmName": "myEC2Assignment25Dashboard",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:941409993553:alarm:myEC2Assignment25Dashboard",
+            "AlarmDescription": "when the instance CPUutulization reaches 1 percent",
+            "AlarmConfigurationUpdatedTimestamp": "2022-01-29T19:55:45.652000+00:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:941409993553:myEC2Assignment25Dashboard"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "INSUFFICIENT_DATA",
+            "StateReason": "Insufficient Data: 1 datapoint was unknown.",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2022-01-30T22:10:49.987+0000\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2022-01-30T22:10:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2022-01-30T22:10:49.989000+00:00",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-084ac1b78e6cc42e6"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "missing"
+        }
+    ],
+    "CompositeAlarms": []
+}
+>>>To list information about dashboard<<<
+{
+    "MetricAlarms": [
+        {
+            "AlarmName": "myEC2Assignment25Dashboard",
+            "AlarmArn": "arn:aws:cloudwatch:us-east-1:941409993553:alarm:myEC2Assignment25Dashboard",
+            "AlarmDescription": "when the instance CPUutulization reaches 1 percent",
+            "AlarmConfigurationUpdatedTimestamp": "2022-01-29T19:55:45.652000+00:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:us-east-1:941409993553:myEC2Assignment25Dashboard"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "INSUFFICIENT_DATA",
+            "StateReason": "Insufficient Data: 1 datapoint was unknown.",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2022-01-30T22:15:49.987+0000\",\"statistic\":\"Average\",\"period\":60,\"recentDatapoints\":[],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2022-01-30T22:15:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2022-01-30T22:15:49.989000+00:00",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "i-084ac1b78e6cc42e6"
+                }
+            ],
+            "Period": 60,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "missing"
+        }
+    ],
+    "CompositeAlarms": []
+}

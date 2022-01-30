@@ -1,0 +1,52 @@
+>>>To list information about trail<<<
+{
+    "trailList": [
+        {
+            "Name": "Assignment25-CloudTrail",
+            "S3BucketName": "aws-cloudtrail-logs-941409993553-e5f648fb",
+            "IncludeGlobalServiceEvents": true,
+            "IsMultiRegionTrail": true,
+            "HomeRegion": "us-east-1",
+            "TrailARN": "arn:aws:cloudtrail:us-east-1:941409993553:trail/Assignment25-CloudTrail",
+            "LogFileValidationEnabled": true,
+            "CloudWatchLogsLogGroupArn": "arn:aws:logs:us-east-1:941409993553:log-group:Assignment25-LogGroup:*",
+            "CloudWatchLogsRoleArn": "arn:aws:iam::941409993553:role/service-role/Assignment25CloudTrailRole",
+            "HasCustomEventSelectors": true,
+            "HasInsightSelectors": false,
+            "IsOrganizationTrail": false
+        }
+    ]
+}
+>>>To get the trail name<<<
+{
+    "trailList": [
+        {
+            "Name": "Assignment25-CloudTrail",
+            "S3BucketName": "aws-cloudtrail-logs-941409993553-e5f648fb",
+            "IncludeGlobalServiceEvents": true,
+            "IsMultiRegionTrail": true,
+            "HomeRegion": "us-east-1",
+            "TrailARN": "arn:aws:cloudtrail:us-east-1:941409993553:trail/Assignment25-CloudTrail",
+            "LogFileValidationEnabled": true,
+            "CloudWatchLogsLogGroupArn": "arn:aws:logs:us-east-1:941409993553:log-group:Assignment25-LogGroup:*",
+            "CloudWatchLogsRoleArn": "arn:aws:iam::941409993553:role/service-role/Assignment25CloudTrailRole",
+            "HasCustomEventSelectors": true,
+            "HasInsightSelectors": false,
+            "IsOrganizationTrail": false
+        }
+    ]
+}
+>>>to get a status of a trail<<<
+{
+    "IsLogging": true,
+    "LatestDeliveryTime": "2022-01-30T17:37:48.136000-05:00",
+    "StartLoggingTime": "2022-01-29T19:53:04.510000-05:00",
+    "LatestCloudWatchLogsDeliveryTime": "2022-01-30T17:39:13.845000-05:00",
+    "LatestDigestDeliveryTime": "2022-01-30T17:14:16.187000-05:00",
+    "LatestDeliveryAttemptTime": "2022-01-30T22:37:48Z",
+    "LatestNotificationAttemptTime": "",
+    "LatestNotificationAttemptSucceeded": "",
+    "LatestDeliveryAttemptSucceeded": "2022-01-30T22:37:48Z",
+    "TimeLoggingStarted": "2022-01-30T00:53:04Z",
+    "TimeLoggingStopped": ""
+}
